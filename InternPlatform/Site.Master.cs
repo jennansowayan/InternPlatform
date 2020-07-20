@@ -76,6 +76,11 @@ namespace InternPlatform
         {
             Context.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
         }
+        protected void Login_Clicked (object sender, EventArgs e)
+        {
+            Response.Redirect("/Account/Login");
+        }
+
     }
 
 }

@@ -1,17 +1,21 @@
-﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="InternPlatform.Contact" %>
+﻿<%@ Page Title="Evaluaion" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="InternPlatform.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
-    <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
+    <p>
+        <strong>About me:</strong> Jennan Sowayan, file number 196 senior computer science at princess norah Universiy.
+    </p>
+    <ul>
+        <li>
+            Source code and database backup <a href="https://github.com/jennansowayan/InternPlatform">Here</a>
+        </li>
 
-    <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>
+        <li>
+            Evaluaion Reports <a href=" https://kfmcvlos-my.sharepoint.com/personal/ahameed_kfmc_med_sa/_layouts/15/onedrive.aspx?originalPath=aHR0cHM6Ly9rZm1jdmxvcy1teS5zaGFyZXBvaW50LmNvbS86ZjovZy9wZXJzb25hbC9haGFtZWVkX2tmbWNfbWVkX3NhL0V0UWlpWVlIVGRsS2hUQ1R0Q2hLanU4QnJhUjNtNF9QV2pwZW1talcyV3k4c3c_cnRpbWU9MmZKWnFna3MyRWc&id=/personal/ahameed_kfmc_med_sa/Documents/master.INTERNSHIP/2020SummerUploadedInternClips/evaluation_No_2/196-Jennan_Sowayan">Here</a>.
+        </li>
+
+        <li>
+            My supervisor's email: ccis-nw-ct@pnu.edu.sa
+        </li>
+    </ul>
 </asp:Content>

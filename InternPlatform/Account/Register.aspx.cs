@@ -13,6 +13,8 @@ namespace InternPlatform.Account
     {
         protected void CreateUser_Click(object sender, EventArgs e)
         {
+            Response.Redirect("/Evaluation/EvaluationForm");
+
             var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
             var signInManager = Context.GetOwinContext().Get<ApplicationSignInManager>();
             var user = new ApplicationUser() { UserName = Email.Text, Email = Email.Text };
@@ -31,6 +33,7 @@ namespace InternPlatform.Account
             {
                 ErrorMessage.Text = result.Errors.FirstOrDefault();
             }
+
         }
     }
 }
